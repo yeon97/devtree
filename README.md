@@ -23,6 +23,8 @@
 - `트리 구조`처럼 연결된 개발자 커넥션
 - 나뭇가지처럼 뻗어나가는 지식들
 
+<br>
+
 ### 🧑‍💻 역할
 - **김정혁**
     - Spring boot 와 Spring Data Jpa를 활용하여 API 설계 및 구현
@@ -51,6 +53,7 @@
     - 와이어프레임 설계
 
 <br>
+
 
 ## ****📄**** 프로젝트 기획
 
@@ -152,6 +155,8 @@
 - [와이어 프레임](https://www.figma.com/file/yD9J4MoH2Uh1eXKL4q6UE8/devtree?node-id=73%3A12)
 - [ERD](https://www.erdcloud.com/d/MLKTGEeeE73nNM3FW)
 - [컨벤션 규칙](https://power-boursin-2f3.notion.site/Git-358b165538d748c3ab4d38192b173e46)
+
+<br>
 
 ## 프로젝트 결과물
 
