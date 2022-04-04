@@ -84,7 +84,7 @@
 
 - **문제 정의**
     - 개발을 독학하는 입장에서 **스터디**와 **프로젝트**를 각각 찾는 것은 이미 서비스가 있다.
-    - 그러나 지금 참여한 스터디에서 배운 점을 써먹을 프로젝트를 찾거나, 지금 참여한 프로젝트에서 부족한 지식을 채워줄 연관된 스터디를 찾는 서비스는 찾기 힘들다.
+    - 그러나 지금 참여한 스터디에서 배운 점을  프로젝트를 찾거나, 지금 참여한 프로젝트에서 부족한 지식을 채워줄 연관된 스터디를 찾는 서비스는 찾기 힘들다.
     - 스터디를 진행할 때 수준이 비슷한 사람끼리 진행하거나, 멘토 역할을 할 수 있는 인원이 없으면 큰 시너지를 낼 수 없다.
     - 그렇지만 같은 주제에 대해 공부하고 싶어서 모인 인원들 사이의 수준 차이가 비슷한 경우가 많으며, 그런 경우 위와 같은 문제에 직면하게 된다.
     - 또한 프로젝트를 하다가 막히는 부분에 도움을 받을 곳을 찾기 어렵다.
@@ -98,44 +98,52 @@
 - **목표**
     - 스터디와 프로젝트를 진행하는 개발자들을 돕고 역량을 향상시키는 서비스를 구현한다.
     - 멘토는 스터디와 프로젝트의 멘토 활동을 통해 자기 경력을 쌓을 수 있고 간단한 보상(ex 경험치, 티어)과 멘티들의 후기를 통해 멘토로서 경쟁력을 높일 수 있다.
+<br>
 
+### 🚀배포
 
-### 환경 버전
+- **서버**
+    - AWS EC2 - Ubuntu 20.04 LTS (GNU/Linux 5.4.0-1018-aws x86_64)
+    - Nginx 1.18.0
+- **배포 여부 : O**
+- **접속 url :** [https://i6a307.p.ssafy.io/](https://i6a307.p.ssafy.io/)
+- **접속 가능 여부 : X**
 
-1. **이슈관리**: Jira
-2. **형상관리** : Gitlab
-3. **커뮤니케이션** : Mattermost, Discord, Notion
-4. **개발 환경**
-    - **OS**
-        - Windows 10
-    - **IDE**
-        - Intellij IDEA community Edition 2021.3.1
-        - Visual Studio Code 1.63.2
-        - Figma, illustrator
-    - **Database**
-        - MySQL Workbench
-    - **Server**
-        - AWS EC2 - Ubuntu 20.04 LTS (GNU/Linux 5.4.0-1018-aws x86_64)
-    - **Browser**
-        - Chrome 97.0.4692.71 64bit
-        - Microsoft Edge 97.0.1072.69 64bit
-5. **상세내용**
-    - **Backend**
-        - Java (Open-JDK Zulu 8.33.0.1 / 11.0.X)
-    - **Frontend**
-        - HTML5, CSS3, JavaScript(ES6)
-        - React 17.0.2, Reux
-        - Node.js 16.13.0
-- node: `16.13.0`
-- java: `1.8.xx` ***(java 8 이상 : 스트림, 람다)***
-- mysql: `8.0이상` / `5.7이상`
-- react : 최신버전(`17.0.2`)
-- spring-boot
-- gradle
-- WebRTC관련 서버
-- browser: Chrome
-- OS: Windows 10
+<br>
 
+### ****🛠️**** 기술 스택
+
+- **Frontend**
+    - HTML5, CSS3
+    - Javascript : ES6
+    - React : 17.0.2
+    - Redux : 4.0.0
+    - Node.js : 16.13.0
+    - Material UI : 5.0
+    - Visual Studio Code : 1.63.2
+- **Backend**
+    - Spring boot : 2.6.3
+    - Java (Open-JDK Zulu 8.33.0.1 / 11.0.X)
+    - Spring Data Jpa
+    - Hibernate
+    - Spring Security
+    - Intellij IDEA community Edition 2021.3.1
+    - Gradle 7.3.3
+    - lombok
+- **DB**
+    - MySQL 8.0
+- **webRTC**
+    - Openvidu 2.18.0
+- **Collaboration**
+    - Git
+    - Jira
+    - Notion
+    - Discord
+    - MatterMost
+    - Figma (와이어프레임 설계)
+    - ERDCloud (ERD 설계)
+
+<br>
 
 ## 프로젝트 산출물
 
